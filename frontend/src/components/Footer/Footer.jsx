@@ -32,12 +32,12 @@ const Footer = () => {
           <h2>GET IN TOUCH</h2>
           <ul>
             <li>(426) 839-1429 x561</li>
-            <li>contact@tomato.com</li>
+            <li>contact@yumrush.com</li>
           </ul>
         </div>
       </div>
       <hr />
-      <p>Copyrigth 2024 @ Tomato.com - All Rights Reserved</p>
+      <p>Copyrigth 2024 &#169; YumRush.com - All Rights Reserved</p>
     </div>
   );
 };
