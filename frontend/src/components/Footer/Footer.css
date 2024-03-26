@@ -56,3 +56,17 @@
   background: #c6c6c6;
   margin: 20px 0;
 }
+
+@media (max-width: 1050px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .footer-content-left {
+    align-items: left;
+  }
+  .footer-content-center,
+  .footer-content-right {
+    align-items: left;
+  }
+}
