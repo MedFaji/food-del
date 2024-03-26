@@ -36,3 +36,25 @@
   font-size: max(1vw, 14px);
   border-radius: 50px;
 }
+
+@media (max-width: 1050px) {
+  .header {
+    height: 34vw;
+  }
+  .header-content {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-content {
+    max-width: 55%;
+  }
+  .header-content p {
+    display: none;
+  }
+
+  .header-content button {
+    padding: 1vw 2.5vw;
+  }
+}
