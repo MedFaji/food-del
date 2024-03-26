@@ -35,6 +35,11 @@
   background-color: white;
   font-size: max(1vw, 14px);
   border-radius: 50px;
+  transition: 1s;
+}
+.header-content button:hover {
+  background-color: #f4f4f4;
+  scale: 1.1;
 }
 
 @media (max-width: 1050px) {
