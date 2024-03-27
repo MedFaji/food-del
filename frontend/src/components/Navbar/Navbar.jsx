@@ -41,7 +41,9 @@ const Navbar = ({ setShowLoginPopup }) => {
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" className="navbar-search-icon" />
         <div className="navbar-basket-icon">
-          <img src={assets.basket_icon} alt="" />
+          <Link to={"/cart"}>
+            <img src={assets.basket_icon} alt="" />
+          </Link>
           <div className="basket-count"></div>
         </div>
         <button onClick={() => setShowLoginPopup(true)}>Sign in</button>
