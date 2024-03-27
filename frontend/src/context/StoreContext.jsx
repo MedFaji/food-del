@@ -22,6 +22,24 @@ export const StoreContextProvider = (props) => {
     }
   };
 
+  const getTotalCartAmount = () => {
+    let total = 0;
+    for (const itemId in cartItems) {
+      if (cartItems[itemId] > 0) {
+        let item = food_list.find((item) => item._id === itemId);
+        total += item.price * cartItems[itemId];
+      }
+    }
+    return total;
+  };
+  const getCartItemsCount = () => {
+    let count = 0;
+    for (const itemId in cartItems) {
+      count += cartItems[itemId];
+    }
+    return count;
+  };
+
   useEffect(() => {
     console.log(cartItems);
   }, [cartItems]);
@@ -32,6 +50,8 @@ export const StoreContextProvider = (props) => {
     setCartItems,
     addToCart,
     removeFromCart,
+    getTotalCartAmount,
+    getCartItemsCount,
   };
 
   return (
