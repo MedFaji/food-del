@@ -54,20 +54,22 @@
 
 .navbar-basket-icon .basket-count {
   position: absolute;
-  top: -8px;
-  right: -8px;
+  top: -12px;
+  right: -12px;
   background-color: tomato;
   color: white;
   border-radius: 50%;
-  padding: 5px;
+  padding: 3px;
   font-size: 12px;
-  min-height: 10px;
-  min-width: 10px;
+  text-align: center;
+  min-width: 15px;
+  height: 20px;
+  width: 20px;
 }
 
 @media (max-width: 1050px) {
   .navbar .logo {
-    width: 100px;
+    width: 150px;
   }
 
   .navbar-menu {
@@ -90,7 +92,7 @@
 
 @media (max-width: 900px) {
   .navbar .logo {
-    width: 100px;
+    width: 150px;
   }
 
   .navbar-menu {
