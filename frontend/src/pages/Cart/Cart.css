@@ -98,3 +98,26 @@
   color: #111;
   cursor: pointer;
 }
+
+@media (max-width: 750px) {
+  .cart-bottom {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .cart-bottom button {
+    width: 60%;
+  }
+
+  .cart-promocode {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .cart-promocode-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cart-promocode-input button {
+    width: 100%;
+  }
+}
